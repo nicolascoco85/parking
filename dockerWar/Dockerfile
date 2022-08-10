@@ -13,4 +13,4 @@ USER jboss
 RUN mkdir /opt/jboss/wildfly/standalone/log
 
 # Explicitly expose port 8080 (explicit is required by Elastic Beanstalk)
-EXPOSE 8080
+EXPOSE 3000
